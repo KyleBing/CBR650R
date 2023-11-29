@@ -43,6 +43,16 @@
 </div>
 
 
+<script>
+    setTimeout(() => {
+        if (!/^http:\/\/(a\.kylebing\.cn|localhost|192\.168\.\d{1,3}\.\d{1,3})/i.test(location.href)) {
+            let hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?7efa86cfc97dabd5862a265833c6071c";
+            let s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        }
+    }, 1000)
+</script>
 
 </body>
 </html>
