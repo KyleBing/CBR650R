@@ -22,7 +22,6 @@ h1 {
 }
 
 .car-item {
-  margin-bottom: 20px;
   position: relative;
 }
 .car-item .name {
@@ -32,7 +31,7 @@ h1 {
   left: 10px;
   font-weight: bold;
   color: white;
-  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5);
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.8);
 }
 .car-item img {
   display: block;
@@ -56,8 +55,6 @@ h1 {
 .fullscreen .name {
   position: fixed;
   font-size: 2rem;
-  left: 10px;
+  left: 15px;
   bottom: 10px;
 }
-
-/*# sourceMappingURL=cbr605r.css.map */

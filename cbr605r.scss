@@ -23,7 +23,6 @@ h1{
 }
 
 .car-item{
-  margin-bottom: 20px;
   position: relative;
   .name{
     font-size: 1.2rem;
@@ -32,7 +31,7 @@ h1{
     left: 10px;
     font-weight: bold;
     color: white;
-    text-shadow: 1px 1px 0 transparentize(black,0.5);
+    text-shadow: 1px 1px 10px transparentize(black,0.2);
   }
   img{
     display: block;
@@ -56,7 +55,7 @@ h1{
   .name{
     position: fixed;
     font-size: 2rem;
-    left: 10px;
+    left: 15px;
     bottom: 10px;
   }
 }
