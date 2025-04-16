@@ -1,4 +1,6 @@
+@charset "UTF-8";
 body {
+  font-family: "微软雅黑", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   padding: 30px;
 }
 
@@ -51,6 +53,7 @@ h1 {
   bottom: 0;
   top: 0;
   right: 0;
+  background-color: black;
 }
 .fullscreen .name {
   position: fixed;
@@ -58,3 +61,17 @@ h1 {
   left: 15px;
   bottom: 10px;
 }
+
+@media only screen and (max-device-width: 480px) {
+  .car-list {
+    flex-flow: row wrap;
+  }
+  .car-list-group {
+    width: 100%;
+  }
+  .car-item {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=cbr605r.css.map */

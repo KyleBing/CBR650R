@@ -1,8 +1,9 @@
 window.onload = () => {
     $$('.car-item').forEach(item => {
         item.addEventListener('click', (event) => {
-            toggleImageFullScreen(event.target.parentNode)
-            console.log(event)
+            if(event.target.tagName === 'IMG'){
+                toggleImageFullScreen(event.target.parentNode)
+            }
         }, true)
     })
 }
