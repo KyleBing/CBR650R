@@ -27,12 +27,17 @@ h1 {
   position: relative;
 }
 .car-item .name {
+  border: 1px solid white;
+  padding: 5px 10px;
   font-size: 1.2rem;
   position: absolute;
-  bottom: 10px;
-  left: 10px;
+  bottom: 5px;
+  left: 5px;
   font-weight: bold;
   color: white;
+  line-height: 1;
+  background-color: black;
+  backdrop-filter: blur(5px);
   text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.8);
 }
 .car-item img {
