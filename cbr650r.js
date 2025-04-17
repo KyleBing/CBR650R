@@ -9,10 +9,18 @@ window.onload = () => {
 }
 
 function toggleImageFullScreen(el){
-    if (el.classList.contains('fullscreen')){
+    const isFullscreen = el.classList.contains('fullscreen')
+    
+    if (isFullscreen) {
         el.classList.remove('fullscreen')
+        document.body.classList.remove('modal-open')
     } else {
+        // Remove fullscreen from any other elements first
+        $$('.car-item.fullscreen').forEach(item => {
+            item.classList.remove('fullscreen')
+        })
         el.classList.add('fullscreen')
+        document.body.classList.add('modal-open')
     }
 }
 
